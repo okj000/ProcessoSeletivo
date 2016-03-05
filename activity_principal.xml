@@ -1,0 +1,312 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#045FB4"
+    android:focusable="true" android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titulo"
+        android:text="Cadastro de Produtos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:textColor="#fff" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:focusable="true" android:focusableInTouchMode="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:paddingRight="8dp"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/tvNomeProduto"
+                android:text="Nome do produto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:textAlignment="center"
+                android:background="#dcdada"
+                />
+
+            <EditText
+                android:id="@+id/campoNomePoduto"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#fff"
+                android:layout_marginBottom="10dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                />
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:focusable="true" android:focusableInTouchMode="true"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/tvValorProduto"
+                android:text="Valor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:textAlignment="center"
+                android:background="#dcdada"
+                />
+
+            <EditText
+                android:id="@+id/campoValorProduto"
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#fff"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:paddingRight="8dp"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/tvDescricao"
+                android:text="Descrição"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:textAlignment="center"
+                android:background="#dcdada"
+                />
+
+            <EditText
+                android:id="@+id/campoDescricao"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#fff"
+                android:layout_marginBottom="10dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true" />
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/tvFabricante"
+                android:text="Fabricante"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:textAlignment="center"
+                android:background="#dcdada"
+                />
+
+            <EditText
+                android:id="@+id/campoFabricante"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#fff"
+                android:focusable="true"
+                android:focusableInTouchMode="true" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+id/tvCategoria"
+                android:text="Categoria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"
+                android:textAlignment="center"
+                android:background="#dcdada"
+                />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:id="@+id/spinnerCategoria"
+                android:background="#fff"
+                android:layout_margin="0dp"
+                android:spinnerMode="dropdown" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+         >
+
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:text="Cadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:textAllCaps="true"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:padding="4dp"
+        android:background="#323134"
+        android:textColor="#FFF"
+        android:onClick="cadastrarbtn"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp" />
+
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+             >
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_weight="1"
+                >
+            <Button
+                android:id="@+id/btnOrdemPorNome"
+                android:text="Ordem por Nome"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textAllCaps="true"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textSize="10dp"
+                android:padding="4dp"
+                android:background="#323134"
+                android:textColor="#FFF"
+                android:onClick="ordenarPorNome"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="4dp" />
+            </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_weight="1"
+                >
+            <Button
+                android:id="@+id/btnOrdemPorCategoria"
+                android:text="Ordem por Categoria"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textAllCaps="true"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textSize="10dp"
+                android:padding="4dp"
+                android:background="#323134"
+                android:textColor="#FFF"
+                android:onClick="ordenarPorCategoria"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="4dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:orientation="vertical"
+        android:layout_margin="0dp">
+        <ListView
+            android:id="@+id/lvExibe"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

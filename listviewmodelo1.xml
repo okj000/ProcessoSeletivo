@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#9999"
+    >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="0.64"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:id="@+id/imgLista"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_gravity="top"
+         />
+
+</LinearLayout>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="0.44"
+    android:orientation="vertical"
+    android:layout_marginLeft="8dp"
+
+    >
+
+    <TextView
+        android:id="@+id/tvlistaId"
+        android:text="ID do produto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_gravity="left"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/tvlistaNome"
+        android:text="Nome do produto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_gravity="left"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:id="@+id/tvlistaValor"
+        android:text="Valor do produto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_gravity="left"
+        android:textColor="#FFF"
+        />
+
+    <TextView
+        android:id="@+id/tvlistaDescricao"
+        android:text="Descrição do produto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_gravity="left"
+        android:textColor="#FFF"/>
+
+    <TextView
+        android:id="@+id/tvlistaFabricante"
+        android:text="Fabricante do produto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_gravity="left"
+        android:textColor="#FFF"
+        />
+
+    <TextView
+        android:id="@+id/tvlistaCategoria"
+        android:text="Categoria do produto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_gravity="left"
+        android:textColor="#FFF"/>
+
+
+
+</LinearLayout>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.89"
+        android:orientation="vertical"
+
+        >
+
+
+    <ImageButton
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:text="EDT"
+        android:background="@drawable/ic_mode_edit_black_36dp"
+        android:id="@+id/btnListaEDT"
+        android:backgroundTint="#666666"
+        android:layout_gravity="right"
+        android:adjustViewBounds="true" />
+
+    <ImageButton
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="12dp"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:text="EDT"
+        android:background="@drawable/ic_delete_black_36dp"
+        android:id="@+id/btnListaDEL"
+        android:layout_gravity="right"
+        android:backgroundTint="#666666" />
+
+
+</LinearLayout>
+
+
+</LinearLayout>
